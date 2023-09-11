@@ -2,8 +2,7 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services
-    .AddSingleton<IProductDAO, ProductDAO>();
+builder.Services.AddSingleton<IProductDAO, ProductDAO>();
 
 var app = builder.Build();
 
