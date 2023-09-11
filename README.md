@@ -119,6 +119,10 @@ public static class ProductsEndpoints
 
 ## Endpoints tests
 
+Please note that the examples I'm presenting here are solely to demonstrate how one can test endpoint behaviors without mocking the HttpContext or HttpRequest.
+In your projects, your tests should be more rigorous.
+The examples in my demonstration don't provide comprehensive guarantees.
+
 ```csharp
 public class Tests
 {
